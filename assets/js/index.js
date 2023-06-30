@@ -48,6 +48,15 @@ const propiedadesJSON = [
       m: 500
     }
   ];
-  // solo comentar que tenemos 3 id en el nav
- // Que son #cuartos, #desde y #hasta
- //
+const Chilebusca = () => {
+
+const cantidadcuartos = document.querySelector('#cuartos').value;
+const metrosdesde = document.querySelector('#desde').value;
+const metroshasta = document.querySelector('#hasta').value;
+
+if (cantidadcuartos && metrosdesde && metroshasta) {
+  console.log('Todos tienen valor');
+} else {
+  alert('Faltan campos por llenar');
+}
+}
