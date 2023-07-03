@@ -5,7 +5,6 @@
 body{
     background: #0e0e0e;
     color: rgb(213, 213, 200);
-    font-weight: bold;
     display: grid;
     grid-template-columns: 3fr 10fr;
     width:100vw;
@@ -32,8 +31,6 @@ nav div{
 
 .bigmama {
     padding: 0px 5%;
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 45px
 }
 .propiedad{ 
@@ -52,5 +49,11 @@ nav div{
 
 .propiedad section p{
     margin: 0px
+}
+
+.propiedades {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
 
